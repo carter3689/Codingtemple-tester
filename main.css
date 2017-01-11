@@ -1,0 +1,38 @@
+p.note{
+	color:red;
+}
+
+.note{
+	color:blue;
+	min-height: 150px;
+}
+
+li > a{
+	color: orange;
+}
+
+h1 ~ p{
+	color: purple;
+}
+
+.inline-block{
+	display:inline-block;
+}
+
+.bullet-remove{
+	text-decoration: none;
+}
+
+.text-transform{
+	text-transform: uppercase;
+}
+
+.puppy{
+	height:100px;
+	background-image: url("http://res.cloudinary.com/carter3689/image/upload/v1477512154/Profile_Page_qwbd89.jpg");
+}
+
+img{
+  margin: auto;
+  display: block;
+}

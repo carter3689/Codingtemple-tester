@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("http://images.all-free-download.com/images/graphiclarge/green_leaf_background_01_vector_182019.jpg");
+  color:#193517;
+  width: 800px;
+  line-height:20px;
+  align-content: center;
+}
+h1 {
+  background:#346630;
+  border: solid 4px;
+  padding: 6px;
+  text-align:center;
+  border-radius:10px;
+}
+h2 {
+  background:#346630;
+  border: solid 4px;
+  padding: 6px;
+  text-align:center;
+  border-radius:10px;
+}
+p {
+  background:#aee0aa;
+  border-radius: 10px;
+  padding: 6px;
+}
+table{
+  background:#aee0aa;
+  width:780px;
+  padding:10px;
+  border-radius:10px;
+}
+td{
+  padding:10px;
+  margin:10px;
+  text-align:center;
+}
+td:hover{
+  background-color:#346630;
+}
+hr{
+  border-width: 2px;
+  border-style:solid;
+  margin-top: 0.0;
+  margin-bottom: 0.0;
+}
+
+img{
+  height:350px
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+  display:inline;
+  padding:4px;
+}
+li+li{ /*  https://www.jackreichert.com/2011/07/how-to-add-a-divider-between-menu-items-in-css-using-only-one-selector/*/
+  border-left:2px solid black
+}
+
+input{
+  text-shadow:0px;
+  background:#aee0aa;
+  border:2px solid;
+  color:#193517;
+}
+
+input#submit{
+  text-shadow:0px;
+  background:#aee0aa;
+}
+
+a:link{
+  color:#193517;
+}
+a:visited{
+  color:#346630;
+}
+
+.mediv{
+  text-align:center;
+  background:#aee0aa;
+  padding:8px;
+  border-radius:10px;
+}
+.master{
+  background:rgba(118, 173, 112,0.75);
+  padding: 8px;
+  border-radius: 10px;
+  align-content: center;
+}
+.sidebar{
+ position: fixed;
+ top: 10px;
+ left:820px;
+ background:rgba(118, 173, 112,0.75);
+ padding: 8px;
+ border-radius:10px;
+
+}
+#me{
+  margin:5px;
+  height:200px;
+  border-radius:10px;
+}
